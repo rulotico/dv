@@ -33,3 +33,73 @@ a {
 .gallery-foot{background-color: #22004E; height: 350px;}
 .footer{background-color: #5200C2; height: 300px;}
 .signature{background-color: #3C0090; height: 70px}
+
+/* ---------------------------------------------------- RULOTICO */
+
+.header{
+	background-image: url(../img/header_back.png);
+	padding-top: 25px;
+	position: fixed;
+	width: 100%;
+}
+.header img{
+	height: 50px;
+}
+
+.points-header{
+	position: fixed;
+	right: 40px;
+	margin-top: 20px;
+	z-index: 2;
+}
+
+.circle-header{
+	height: 7px;
+	width: 7px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 3px;
+}
+
+.cyan-points{
+	background-color: #2BF2FC;
+	-webkit-animation: pulsate 4s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+
+}
+.green-points{
+	background-color: #2DF97F;
+	-webkit-animation: pulsate 4.1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.purple-points{
+	background-color: #530AC6;
+	-webkit-animation: pulsate 4.2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.pink-points{
+	background-color: #E01476;
+	-webkit-animation: pulsate 4.3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.yellow-points{
+	background-color: #F7D900;
+	-webkit-animation: pulsate 4.4s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: opacity: 4.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: opacity: 0.0;}
+}
+
+
+/* ---------------------------------------------------- RULOTICO */
