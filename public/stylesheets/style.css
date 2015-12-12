@@ -22,7 +22,7 @@ a {
 }
 
 .header{background-color: #3E0086; height: 100px;}
-.main-explain{background-color: #2D0063; height: 600px;}
+.main-explain{background-color: #2D0063; height: 1000px;}
 .definitions{background-color: #4B00A6; height: 600px;}
 .courses{background-color: #5100B6; height: 800px;}
 .manifest{background-color: #5C00D2; height: 400px;}
@@ -36,21 +36,24 @@ a {
 
 /* ---------------------------------------------------- RULOTICO */
 
+
+/* -------------------------2 Seccion*/
 .header{
 	background-image: url(../img/header_back.png);
-	padding-top: 25px;
+	padding-top: 20px;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 .header img{
-	height: 50px;
+	height: 56px;
 }
 
 .points-header{
 	position: fixed;
 	right: 40px;
 	margin-top: 20px;
-	z-index: 2;
+	z-index: 11;
 }
 
 .circle-header{
@@ -99,6 +102,74 @@ a {
     0% {-webkit-transform: opacity: 4.0;}
     50% {opacity: 1.0;}
     100% {-webkit-transform: opacity: 0.0;}
+}
+
+.blue{
+color: #00b7ff;
+}
+
+.green{
+color: 	#06f88a;
+}
+
+
+/* -------------------------2 Seccion*/
+
+.main-explain{
+  background: url(../img/description_back.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 2000px;
+  padding-top: 180px;
+}
+
+.main-explain h1{
+color: #1F1F1F;
+font-size: 50px;
+padding-bottom: 28px;
+}
+
+.main-explain h3{
+	color: #484C4C;
+}
+
+.main-explain p{
+	color: #797979;
+}
+
+.main-explain strong{
+	color: #484C54;
+}
+
+.courses-container__buttom {
+	font-family: jaappoki;
+    background: #1AFB5F;
+    width: 235px;
+    text-align: center;
+    border-radius: 5px;
+    color: #063C16;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px 0px;
+    margin: 44px auto;
+    cursor: pointer;
+}
+
+
+
+
+
+/* -------------------------FOOTER*/
+
+
+/* -------------------------SIGNATURE*/
+.signature{
+	background-color: #EAEAEA;
+}
+.signature img{
+	height: 50px;
+	margin: 10px;
 }
 
 
