@@ -163,12 +163,24 @@ padding-bottom: 28px;
 /* -------------------------FOOTER*/
 .footer{
 	background-color: #222222;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .medios{
-	height: 400px;
+	max-height: 340px;
 }
 
+.suscripcion_btn{
+	color: #1AFB5F;
+	cursor: pointer;
+	padding-top: 12px;
+}
+.suscripcion_btn:hover{
+	color: #0E8530;
+	cursor: pointer;
+
+}
 
 
 /* -------------------------SIGNATURE*/
