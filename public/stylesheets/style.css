@@ -22,7 +22,7 @@ a {
 }
 
 .header{background-color: #3E0086; height: 100px;}
-.main-explain{background-color: #2D0063; height: 1000px;}
+.main-explain{background-color: #2D0063; height: 800px;}
 .definitions{background-color: #4B00A6; height: 600px;}
 .courses{background-color: #5100B6; height: 800px;}
 .manifest{background-color: #5C00D2; height: 400px;}
@@ -31,7 +31,7 @@ a {
 .students{background-color: #6800F2; height: 400px;}
 .achievements{background-color: #5C00D2; height: 800px;}
 .gallery-foot{background-color: #22004E; height: 350px;}
-.footer{background-color: #5200C2; height: 300px;}
+.footer{background-color: #5200C2; height: 400px;}
 .signature{background-color: #3C0090; height: 70px}
 
 /* ---------------------------------------------------- RULOTICO */
@@ -116,11 +116,11 @@ color: 	#06f88a;
 /* -------------------------2 Seccion*/
 
 .main-explain{
-  background: url(../img/description_back.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 2000px;
+  background: url(../img/description_back.png) no-repeat center top fixed; 
+  -webkit-background-size: auto 1200px;
+  -moz-background-size: auto 1200px;
+  -o-background-size: auto 1200px;
+  background-size: auto 1200px;
   padding-top: 180px;
 }
 
@@ -161,6 +161,14 @@ padding-bottom: 28px;
 
 
 /* -------------------------FOOTER*/
+.footer{
+	background-color: #222222;
+}
+
+.medios{
+	height: 400px;
+}
+
 
 
 /* -------------------------SIGNATURE*/
@@ -168,7 +176,7 @@ padding-bottom: 28px;
 	background-color: #EAEAEA;
 }
 .signature img{
-	height: 50px;
+	height: 45px;
 	margin: 10px;
 }
 
