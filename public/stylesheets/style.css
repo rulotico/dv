@@ -22,7 +22,7 @@ a {
 }
 
 .header{background-color: #3E0086; height: 100px;}
-.main-explain{background-color: #2D0063; height: 600px;}
+.main-explain{background-color: #2D0063; height: 800px;}
 .definitions{background-color: #4B00A6; height: 600px;}
 .courses{background-color: #5100B6; height: 800px;}
 .manifest{background-color: #5C00D2; height: 400px;}
@@ -31,5 +31,166 @@ a {
 .students{background-color: #6800F2; height: 400px;}
 .achievements{background-color: #5C00D2; height: 800px;}
 .gallery-foot{background-color: #22004E; height: 350px;}
-.footer{background-color: #5200C2; height: 300px;}
+.footer{background-color: #5200C2; height: 400px;}
 .signature{background-color: #3C0090; height: 70px}
+
+/* ---------------------------------------------------- RULOTICO */
+
+
+/* -------------------------2 Seccion*/
+.header{
+	background-image: url(../img/header_back.png);
+	padding-top: 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+.header img{
+	height: 56px;
+}
+
+.points-header{
+	position: fixed;
+	right: 40px;
+	margin-top: 20px;
+	z-index: 11;
+}
+
+.circle-header{
+	height: 7px;
+	width: 7px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin: 3px;
+}
+
+.cyan-points{
+	background-color: #2BF2FC;
+	-webkit-animation: pulsate 4s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+
+}
+.green-points{
+	background-color: #2DF97F;
+	-webkit-animation: pulsate 4.1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.purple-points{
+	background-color: #530AC6;
+	-webkit-animation: pulsate 4.2s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.pink-points{
+	background-color: #E01476;
+	-webkit-animation: pulsate 4.3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+.yellow-points{
+	background-color: #F7D900;
+	-webkit-animation: pulsate 4.4s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: opacity: 4.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: opacity: 0.0;}
+}
+
+.blue{
+color: #00b7ff;
+}
+
+.green{
+color: 	#06f88a;
+}
+
+
+/* -------------------------2 Seccion*/
+
+.main-explain{
+  background: url(../img/description_back.png) no-repeat center top fixed; 
+  -webkit-background-size: auto 1200px;
+  -moz-background-size: auto 1200px;
+  -o-background-size: auto 1200px;
+  background-size: auto 1200px;
+  padding-top: 180px;
+}
+
+.main-explain h1{
+color: #1F1F1F;
+font-size: 50px;
+padding-bottom: 28px;
+}
+
+.main-explain h3{
+	color: #484C4C;
+}
+
+.main-explain p{
+	color: #797979;
+}
+
+.main-explain strong{
+	color: #484C54;
+}
+
+.courses-container__buttom {
+	font-family: jaappoki;
+    background: #1AFB5F;
+    width: 235px;
+    text-align: center;
+    border-radius: 5px;
+    color: #063C16;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 11px 0px;
+    margin: 44px auto;
+    cursor: pointer;
+}
+
+
+
+
+
+/* -------------------------FOOTER*/
+.footer{
+	background-color: #222222;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.medios{
+	max-height: 340px;
+}
+
+.suscripcion_btn{
+	color: #1AFB5F;
+	cursor: pointer;
+	padding-top: 12px;
+}
+.suscripcion_btn:hover{
+	color: #0E8530;
+	cursor: pointer;
+
+}
+
+
+/* -------------------------SIGNATURE*/
+.signature{
+	background-color: #EAEAEA;
+}
+.signature img{
+	height: 45px;
+	margin: 10px;
+}
+
+
+/* ---------------------------------------------------- RULOTICO */
